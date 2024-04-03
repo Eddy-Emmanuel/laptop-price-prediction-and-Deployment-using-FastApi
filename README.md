@@ -30,10 +30,10 @@ To get started with this project, follow these steps:
 Once the FastAPI server is up and running, you can make POST requests to the `/get_prediction/` endpoint with the required parameters to obtain a laptop price prediction.
 
 Usage Example pg1
-![Alt Text]()
+![Alt Text](Usage_Example_1.png)
 
 Usage Example pg2
-![Alt Text]()
+![Alt Text](Usage_Example_2.png)
 
 ## Model Training
 
