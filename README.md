@@ -19,43 +19,16 @@ To get started with this project, follow these steps:
     ```
 
 3. Run the FastAPI server:
-
+    Using command prompt:
     ```bash
     uvicorn main:app --reload
     ```
-
-4. Access the FastAPI documentation and test the prediction endpoint by visiting `http://localhost:8080/docs` in your web browser.
+    Running without command Prompt: Just Click on the play botton on your VS code.
 
 ## Usage
 
 Once the FastAPI server is up and running, you can make POST requests to the `/get_prediction/` endpoint with the required parameters to obtain a laptop price prediction.
 
-Example request body:
-
-```json
-{
-  "company": "acer",
-  "typename": "notebook",
-  "ram": 8,
-  "cpu_brand": "intel core i5",
-  "touchscreen": "no",
-  "ips": "yes",
-  "hdd": 1000,
-  "ssd": 256,
-  "gpu_brand": "nvidia",
-  "os": "windows",
-  "weight": 2.5,
-  "ppi": 150
-}
-```
-
-Example response:
-
-```json
-{
-  "Laptop Price": 1200.0
-}
-```
 
 ## Model Training
 
@@ -64,11 +37,3 @@ The machine learning model used for prediction is trained using the `model.py` s
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to adjust the content as needed to better fit your project's specifics. Let me know if you need further assistance!
